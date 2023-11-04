@@ -1,0 +1,203 @@
+.clear-both {
+    clear: both;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(img/fondo.jpg);
+}
+
+/* HEADER */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: solid 1px black;
+    height: 12vh;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 3px 2px black;
+    background-color: rgb(32, 61, 79);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.header h3 {
+    margin: 0;
+}
+
+.header h1 {
+    margin: 0;
+    margin-top: 10px;
+}
+
+/* --------------- */
+
+/* INFO BIENVENIDA */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(224, 221, 221);
+    max-width: 850px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px -4px;
+    margin: 0 auto;
+    margin-top: 15vh;
+    padding: 30px 0;
+}
+@media (max-width:900px) {
+    .container {
+        width: 95%;
+    }
+}
+
+.info-bienvenida {
+    display: flex;
+    margin: 0 42.5px;
+}
+@media (max-width:850px) {
+    .info-bienvenida {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        text-indent: 1px;
+    }
+}
+
+.bloque {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 25px;
+    font-size: 17px;
+}
+
+.container h4 {
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+}
+
+.bloque2 {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    margin-left: 42.5px;
+    font-size: 17px;
+}
+@media (max-width:850px) {
+    .bloque2 {
+        margin-left: 0;
+        margin-top: 15px;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+#img01 {
+    max-width: 350px;
+    border-radius: 10px;
+}
+@media (max-width:850px) {
+    #img01 {
+        width: 100%;
+    }
+}
+
+
+/* ------------------ */
+
+/* FORMULARIO */
+.contacto {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.formulario {
+    width: 60%;
+    margin: 15px auto;
+    border: solid 2px black;
+    border-radius: 10px;
+    border-style: outset;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+@media (max-width:650px) {
+    .formulario {
+        width: 90%;
+    }
+}
+
+.formulario h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+}
+
+.formulario h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    margin-bottom: 0;
+
+}
+
+.caja-inputs {
+    display: flex;
+    max-width: 350px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 70%;
+}
+
+input:not(.seguros) {
+    margin: 5px 0;
+    margin-bottom: 8px;
+    padding-left: 5px;
+    border-radius: 3px;
+    width: 97%;
+    height: 30px;
+}
+
+.caja-seguros {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+@media (max-width:650px) {
+    .caja-seguros {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.cajita-seguros {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img-seguros {
+    width: 90px;
+}
+
+@media (max-width:650px) {
+    .cajita-seguros {
+        margin-top: 25px;
+    }
+    .img-seguros {
+        width: 160px;
+    }
+    .cajita-seguros label {
+        margin-bottom: 10px;
+    }
+}

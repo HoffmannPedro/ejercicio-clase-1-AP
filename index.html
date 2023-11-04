@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ejercitación Clase 1</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="titulo">
+            <h1>Seguro No Pagamos Cooperativa</h1>
+            <h3>Tu Socio en Seguros</h3>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h4>¡ Bienvenido a Seguro No Pagamos Coop. !</h4>
+        <div class="info-bienvenida">
+            <div class="bloque">
+                <div>
+                    <p>Somos una compañía de seguros comprometida en brindarte seguridad financiera y protección para
+                        tus
+                        activos. Durante nuestros 2 años en el mercado, hemos destacado por nuestra excelencia en el
+                        servicio al cliente y nuestra innovación constante.</p>
+                </div>
+                <p>Nuestro enfoque es tu satisfacción, y hasta ahora hemos operado a través de los métodos tradicionales
+                    de
+                    venta, donde puedes contactarnos vía telefónica o recibir asesoramiento personalizado de nuestros
+                    expertos. Ahora, estamos emocionados de presentarte una forma más conveniente de conectarte con
+                    nosotros.</p>
+
+            </div>
+            <div class="bloque2">
+                <img id="img01" src="/img/imagen01.jpg" alt="imagen01">
+            </div>
+        </div>
+    </div>
+    <div class="contacto">
+        <form class="formulario" action="">
+            <h2>Contacto</h2>
+
+            <div class="caja-inputs">
+
+                <div class="columna">
+                    <label for="nombre"></label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre..">
+                    <label for="apellido"></label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Apellido..">
+                    <label for="dni"></label>
+                    <input type="number" name="dni" id="dni" placeholder="Nro DNI">
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" placeholder="Email..">
+                    <label for="telefono"></label>
+                    <input type="tel" name="telefono" id="telefono" placeholder="Teléfono..">
+                </div>
+
+            </div>
+
+            <h4>Tipo de Seguro</h4>
+            <p>Elija el tipo de seguro del cual desea recibir información</p>
+
+            <div class="caja-seguros">
+                <div class="cajita-seguros">
+                    <label>Básico</label>
+                    <img class="img-seguros" src="img/charmander.png" alt="">
+                    <input class="seguros" type="radio" name="seguros" value="basico">
+                </div>
+
+                <div class="cajita-seguros">
+                    <label>Intermedio</label>
+                    <img class="img-seguros" src="img/charmeleon.png" alt="">
+                    <input class="seguros" type="radio" name="seguros" value="intermedio">
+                </div>
+
+                <div class="cajita-seguros">
+                    <label>Premium</label>
+                    <img class="img-seguros" src="img/charizard.png" alt="">
+                    <input class="seguros" type="radio" name="seguros" value="premium">
+                </div>
+
+            </div>
+
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="footer"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
