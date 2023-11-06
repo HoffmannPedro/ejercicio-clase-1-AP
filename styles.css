@@ -267,7 +267,7 @@ input:not(.seguros) {
     color: white;
     background-color: rgb(32, 61, 79);
 }
-@media (max-width:450px) {
+@media (max-width:500px) {
     .footer{
         flex-direction: column;
         align-items: center;
@@ -277,7 +277,7 @@ input:not(.seguros) {
     padding: 20px 0;
     margin: 0;
 }
-@media (max-width:450px) {
+@media (max-width:500px) {
     .footer p {
         padding: 5px 0;
     }
