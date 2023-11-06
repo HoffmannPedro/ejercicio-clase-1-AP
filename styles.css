@@ -29,6 +29,11 @@ body {
         height: 16vh;
     }
 }
+@media (max-width:315px) {
+    .header {
+        height: 19vh;
+    }
+}
 
 .header h3 {
     margin: 0;
