@@ -156,7 +156,7 @@ body {
 
 .caja-inputs {
     display: flex;
-    max-width: 350px;
+    max-width: 500px;
     justify-content: center;
     margin: 0 auto;
 }
@@ -177,6 +177,8 @@ input:not(.seguros) {
     width: 97%;
     height: 30px;
 }
+
+/* TIPOS DE SEGUROS */
 .seguros {
     width: 15px;
     height: 15px;
@@ -219,6 +221,7 @@ input:not(.seguros) {
 @media (max-width:650px) {
     .cajita-seguros {
         margin-top: 25px;
+        width: 80%;
     }
     .img-seguros {
         width: 160px;
@@ -232,4 +235,9 @@ input:not(.seguros) {
     font-size: 22px;
     margin-bottom: 0;
     font-weight: 700;
+    display: none;
+}
+
+.mostrar {
+    display: initial;
 }
